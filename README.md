@@ -21,5 +21,4 @@ Linear Algebra: Foundations to Frontier
 1. Open up a terminal.
 2. Run the command **`laff`**
 3. Once you are done, go back to the terminal and press  
-**`control + c` twice**, and then  
-**`control + d`**
+`control + c` twice, and then `control + d`
