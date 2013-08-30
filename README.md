@@ -18,6 +18,7 @@ Linear Algebra: Foundations to Frontier
 ##Linux Setup
 
 1. Download VirtualBox [32-bit](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Linux_x86.run) or [64-bit](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Linux_amd64.run), and [Vagrant](http://downloads.vagrantup.com/tags/v1.2.7).  
+You might need to know the following in order too choose the right files to download.
 >**Instruction Set Architectures (ISA)**  
 x86 or i686 stands for 32-bit architecture  
 amd64 or x86_64 stands for 64-bit architecture  
@@ -27,9 +28,8 @@ amd64 or x86_64 stands for 64-bit architecture
 
 2. Open up a terminal and go to the directory where you placed the dowloaded files.
 
-3. Install VirtualBox by running the following commands:  
-**`chmod +x VirtualBox-4.2.16-86992-Linux_`[ISA]`.run`  
-`sudo sh VirtualBox-4.2.16-86992-Linux_`[ISA]`.run`**  
+3. Install VirtualBox by running the following command:  
+**`sudo sh VirtualBox-4.2.16-86992-Linux_`[ISA]`.run`**  
 Where **[ISA]** is either **x86** or **amd64** depending on which file you downloaded.
 
 4. Install Vagrant by running only one of the following commands:  
@@ -37,7 +37,7 @@ Where **[ISA]** is either **x86** or **amd64** depending on which file you downl
 `sudo rpm -i vagrant_1.2.7_`[ISA]`.rpm`**  
 Where **[ISA]** is either **i686** or **x86_64** depending on which file you downloaded.
 
-5. Install [Git](http://git-scm.com/download/linux) .
+5. Install [Git](http://git-scm.com/download/linux). You might need to `sudo` those commands.
 
 6. Run the following commands:  
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
