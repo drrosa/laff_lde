@@ -14,7 +14,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Win.exe), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant_1.2.7.msi), and [Git](https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe).  
 *Install Git with the defaul settings*
 
-2. Press `Windows key`, and search for *git bash*.
+2. Press `Windows key`, search for *git bash*, and open it up.
 
 3. Run the following commands (use the `Insert` key to paste):  
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
@@ -25,7 +25,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 
 1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-OSX.dmg), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant-1.2.7.dmg), and [Git](https://git-osx-installer.googlecode.com/files/git-1.8.3.2-intel-universal-snow-leopard.dmg).
 
-2. Search for "terminal" using Spotlight and open it up.
+2. Search for *terminal* using Spotlight and open it up.
 
 3. Run the following commands:  
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
@@ -45,14 +45,15 @@ amd64 or x86_64 stands for 64-bit architecture
 
 2. Open up a terminal and go to the directory where you placed the dowloaded files.
 
-3. Install VirtualBox by running the following command:  
-**`sudo sh VirtualBox-4.2.16-86992-Linux_`[ISA]`.run`**  
-Where **[ISA]** is either **x86** or **amd64** depending on which file you downloaded.
 
-4. Install Vagrant by running only one of the following commands:  
+3. Install Vagrant by running only the command that correspons to the file you downloaded:  
+**`sudo sh VirtualBox-4.2.16-86992-Linux_x86.run`  
+`sudo sh VirtualBox-4.2.16-86992-Linux_amd64.run`**  
+
+4. Install Vagrant by running only the command that correspons to the file you downloaded:  
 **`sudo dpkg -i vagrant_1.2.7_`[ISA]`.deb`  
 `sudo rpm -i vagrant_1.2.7_`[ISA]`.rpm`**  
-Where **[ISA]** is either **i686** or **x86_64** depending on which file you downloaded.
+Where **[ISA]** is either **i686** or **x86_64** .
 
 5. Install [Git](http://git-scm.com/download/linux). You might need to `sudo` those commands.
 
@@ -74,4 +75,3 @@ The `laffvm` command automatically boots up the virtual machine, logs you into i
 
 The IPython notebooks runs on the virtual machine as  a local server on port 8888, while your machine is listening also on port 8888.
 So when you pen up your browser and go to [http://127.0.0.1:8888](http://127.0.0.1:8888), you will se the IPython notebook dashboard. You might want to bookmark it.
-
