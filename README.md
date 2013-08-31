@@ -7,16 +7,19 @@ Linear Algebra: Foundations to Frontier
 3. Once you are done, go back to the CLI and press  
 `control` + `c` twice, and then `control` + `d`
 
+If you are curious about the environment go to the [Additional Info](#additional-info) section to learn more.
+
 ##Windows Setup
 
-1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Win.exe), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant_1.2.7.msi), and [Git](https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe).
+1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Win.exe), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant_1.2.7.msi), and [Git](https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe).  
+*When installing Git, make sure you select* **Run Git from the Windows Command Prompt**
 
 2. Press `Windows key` + `r`, type *powershell*, and press `Enter`.
 
 3. Run the following commands:  
-**`git clone https://github.com/rosatamsen/laff.git ~/laff`  
-`cd ~/laff`
-`powershell -ExecutionPolicy bypass config/win.ps1`**
+**`git clone https://github.com/rosatamsen/laff.git $HOME/laff`  
+`cd ~/laff; Set-ExecutionPolicy bypass -force`  
+`config/win.ps1`**
 
 ##Mac Setup
 
@@ -57,3 +60,18 @@ Where **[ISA]** is either **i686** or **x86_64** depending on which file you dow
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
 `cd ~/laff && chmod +x config/linux.sh`  
 `config/linux.sh && source ~/.profile`**
+
+##Additional Info
+The `laff` command automatically boots up the virtual machine, logs in to it, runs the ipython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the laff directory:
+
+**`vagrant up`** Boots up our preconfigured virtual machine.
+
+**`vagrant ssh`** Logs you into the virtual machine.
+
+**`ipython_notebook`** Runs the IPython notebook (runs automatically after SSH).
+
+**`vagrant halt -f`** - Shutdowns the virtual machine.
+
+The IPython notebooks runs in the local server on port 8888 
+Open up your browser and go to [http://127.0.0.1:8888](http://127.0.0.1:8888). You might want to bookmark it.
+
