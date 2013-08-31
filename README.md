@@ -12,14 +12,14 @@ If you are curious about the environment go to the [Additional Info](#additional
 ##Windows Setup
 
 1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Win.exe), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant_1.2.7.msi), and [Git](https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe).  
-*When installing Git, make sure you select* **Run Git from the Windows Command Prompt**
+*Install Git with the defaul settings*
 
-2. Press `Windows key` + `r`, type *powershell*, and press `Enter`.
+2. Press `Windows key`, and search for *git bash*.
 
 3. Run the following commands:  
-**`git clone https://github.com/rosatamsen/laff.git $HOME/laff`  
-`cd ~/laff; Set-ExecutionPolicy bypass -force`  
-`config/win.ps1; exit`**
+**`git clone https://github.com/rosatamsen/laff.git ~/laff`  
+`cd ~/laff && chmod +x config/win.sh`  
+`config/win.sh && source ~/.profile`**
 
 ##Mac Setup
 
