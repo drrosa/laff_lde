@@ -16,7 +16,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 
 2. Press `Windows key`, and search for *git bash*.
 
-3. Run the following commands:  
+3. Run the following commands (use the `Insert` key to paste):  
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
 `cd ~/laff && chmod +x config/win.sh`  
 `config/win.sh && source ~/.profile`**
