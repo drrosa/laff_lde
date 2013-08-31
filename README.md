@@ -1,8 +1,22 @@
 LAFF
 ====
-
 Linear Algebra: Foundations to Frontier
 
+1. Follow the setup instructions for [Windows](#windows-setup), [Mac](#mac-setup), or [Linux](#linux-setup)
+2. Run the command **`laffvm`** on the command line interface (CLI), i.e. terminal/powershell.
+3. Once you are done, go back to the CLI and press  
+`control` + `c` twice, and then `control` + `d`
+
+##Windows Setup
+
+1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-Win.exe), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant_1.2.7.msi), and [Git](https://msysgit.googlecode.com/files/Git-1.8.3-preview20130601.exe).
+
+2. Press `Windows key` + `r`, type *powershell*, and press `Enter`.
+
+3. Run the following commands:  
+**`git clone https://github.com/rosatamsen/laff.git ~/laff`  
+`cd ~/laff`
+`powershell -ExecutionPolicy bypass config/win.ps1`**
 
 ##Mac Setup
 
@@ -43,10 +57,3 @@ Where **[ISA]** is either **i686** or **x86_64** depending on which file you dow
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
 `cd ~/laff && chmod +x config/linux.sh`  
 `config/linux.sh && source ~/.profile`**
-
-##Usage
-
-1. Open up a terminal.
-2. Run the command **`laffvm`**
-3. Once you are done, go back to the terminal and press  
-`control + c` twice, and then `control + d`
