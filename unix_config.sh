@@ -2,4 +2,3 @@ echo "alias laffvm='cd ~/laff; vagrant up; (sleep 4 && open http://127.0.0.1:888
 vagrant up
 vagrant halt
 git rm ~/laff/unix_config.sh
-exit
