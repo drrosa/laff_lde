@@ -19,7 +19,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 3. Run the following commands:  
 **`git clone https://github.com/rosatamsen/laff.git $HOME/laff`  
 `cd ~/laff; Set-ExecutionPolicy bypass -force`  
-`config/win.ps1`**
+`config/win.ps1; exit`**
 
 ##Mac Setup
 
@@ -62,16 +62,16 @@ Where **[ISA]** is either **i686** or **x86_64** depending on which file you dow
 `config/linux.sh && source ~/.profile`**
 
 ##Additional Info
-The `laff` command automatically boots up the virtual machine, logs in to it, runs the ipython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the laff directory:
+The `laffvm` command automatically boots up the virtual machine, logs you into it, runs IPython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the laff directory:
 
 **`vagrant up`** Boots up our preconfigured virtual machine.
 
 **`vagrant ssh`** Logs you into the virtual machine.
 
-**`ipython_notebook`** Runs the IPython notebook (runs automatically after SSH).
+**`ipython_notebook`** Runs IPython notebook (runs automatically after SSH).
 
 **`vagrant halt -f`** - Shutdowns the virtual machine.
 
-The IPython notebooks runs in the local server on port 8888 
-Open up your browser and go to [http://127.0.0.1:8888](http://127.0.0.1:8888). You might want to bookmark it.
+The IPython notebooks runs on the virtual machine as  a local server on port 8888, while your machine is listening also on port 8888.
+So when you pen up your browser and go to [http://127.0.0.1:8888](http://127.0.0.1:8888), you will se the IPython notebook dashboard. You might want to bookmark it.
 
