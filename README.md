@@ -47,8 +47,8 @@ amd64 or x86_64 stands for 64-bit architecture
 
 
 3. Install Vagrant by running only the command that correspons to the file you downloaded:  
-**`sudo sh VirtualBox-4.2.16-86992-Linux_x86.run`**  
-**`sudo sh VirtualBox-4.2.16-86992-Linux_amd64.run`**  
+**`sudo sh VirtualBox-4.2.16-86992-Linux_x86.run`  
+`sudo sh VirtualBox-4.2.16-86992-Linux_amd64.run`**  
 
 4. Install Vagrant by running only the command that correspons to the file you downloaded:  
 **`sudo dpkg -i vagrant_1.2.7_`[ISA]`.deb`  
@@ -75,4 +75,3 @@ The `laffvm` command automatically boots up the virtual machine, logs you into i
 
 The IPython notebooks runs on the virtual machine as  a local server on port 8888, while your machine is listening also on port 8888.
 So when you pen up your browser and go to [http://127.0.0.1:8888](http://127.0.0.1:8888), you will se the IPython notebook dashboard. You might want to bookmark it.
-
