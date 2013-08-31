@@ -13,7 +13,7 @@ Linear Algebra: Foundations to Frontier
 3. Run the following commands:  
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
 `cd ~/laff`  
-`bash unix_config.sh`**
+`bash unix_config.sh && exit`**
 
 ##Linux Setup
 
@@ -42,7 +42,7 @@ Where **[ISA]** is either **i686** or **x86_64** depending on which file you dow
 6. Run the following commands:  
 **`git clone https://github.com/rosatamsen/laff.git ~/laff`  
 `cd ~/laff`    
-`bash unix_config.sh`**
+`bash unix_config.sh && exit`**
 
 ##Usage
 
