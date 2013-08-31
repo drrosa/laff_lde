@@ -3,7 +3,7 @@ LAFF
 Linear Algebra: Foundations to Frontier
 
 1. Follow the setup instructions for [Windows](#windows-setup), [Mac](#mac-setup), or [Linux](#linux-setup)
-2. Run the command **`laffvm`** on the command line interface (CLI), i.e. terminal/powershell.
+2. Run the command **`laffvm`** on the command line interface (CLI), i.e. terminal/git bash.
 3. Once you are done, go back to the CLI and press  
 `control` + `c` twice, and then `control` + `d`
 
