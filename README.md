@@ -1,6 +1,6 @@
 LAFF - LDE
 ====
-Linear Algebra: Foundations to Frontier - Learning and Development Environment
+**Linear Algebra: Foundations to Frontier - Learning and Development Environment**
 
 1. Follow the setup instructions for [Windows](#windows-setup), [Mac](#mac-setup), or [Linux](#linux-setup)
 2. Run the command **`laffvm`** on the command line interface (CLI), i.e. terminal/git bash.
