@@ -16,7 +16,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 
 2. Press `Windows key`, search for *git bash*, and open it up.
 
-3. Run the following commands (use the `Insert` key to paste):  
+3. Run the following commands (hint: use the `Insert` key to paste the command in the git bash):  
 **`git clone https://github.com/rosatamsen/laff_lde.git ~/laff_lde`  
 `cd ~/laff_lde && chmod +x config/win.sh`  
 `config/win.sh && source ~/.profile`**
@@ -57,13 +57,13 @@ Where **[ISA]** is either **i686** or **x86_64** .
 
 5. Install [Git](http://git-scm.com/download/linux). You might need to `sudo` those commands.
 
-6. Run the following commands:  
+6. Run the following commands (hint: use `control`+`shift`+`v` to paste the command in the terminal):  
 **`git clone https://github.com/rosatamsen/laff_lde.git ~/laff_lde`  
 `cd ~/laff_lde && chmod +x config/linux.sh`  
 `config/linux.sh && source ~/.profile`**
 
 ##Additional Info
-The `laffvm` command automatically boots up the virtual machine, logs you into it, runs IPython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the laff_lde directory:
+The `laffvm` command automatically boots up the virtual machine, logs you into it, runs IPython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the *laff_lde* directory:
 
 **`vagrant up`** Boots up our preconfigured virtual machine.
 
@@ -75,3 +75,4 @@ The `laffvm` command automatically boots up the virtual machine, logs you into i
 
 The IPython notebooks runs on the virtual machine as  a local server on port 8888, while your machine is listening also on port 8888.
 So when you pen up your browser and go to [http://127.0.0.1:8888](http://127.0.0.1:8888), you will se the IPython notebook dashboard. You might want to bookmark it.
+Your machine and the virtual machine have a shared directory. Any files you put on *laff_lde* can be accessed from the */vagrant* directory in the virtual machine, and vice versa.  
