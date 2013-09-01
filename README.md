@@ -7,7 +7,7 @@ LAFF - LDE
 3. Once you are done, go back to the CLI and press  
 `control` + `c` twice, and then `control` + `d`
 
-If you are curious about the environment go to the [Additional Info](#additional-info) section to learn more.
+If you are curious about the environment go to the [Additional Info](#additional-info) section to learn more. It also contains information you might need to know later on so you should at least give it a quick read.
 
 ##Windows Setup
 
@@ -16,7 +16,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 
 2. Press `Windows key`, search for *git bash*, and open it up.
 
-3. Run the following commands (hint: use the `Insert` key to paste the command in the git bash):  
+3. Run the following commands (hint: use the `Insert` key to paste the command in git bash):  
 **`git clone https://github.com/rosatamsen/laff_lde.git ~/laff_lde`  
 `cd ~/laff_lde && chmod +x config/win.sh`  
 `config/win.sh && source ~/.profile`**
