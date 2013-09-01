@@ -17,8 +17,8 @@ If you are curious about the environment go to the [Additional Info](#additional
 2. Press `Windows key`, search for *git bash*, and open it up.
 
 3. Run the following commands (use the `Insert` key to paste):  
-**`git clone https://github.com/rosatamsen/laff.git ~/laff`  
-`cd ~/laff && chmod +x config/win.sh`  
+**`git clone https://github.com/rosatamsen/laff.git ~/laff_env`  
+`cd ~/laff_env && chmod +x config/win.sh`  
 `config/win.sh && source ~/.profile`**
 
 ##Mac Setup
@@ -28,8 +28,8 @@ If you are curious about the environment go to the [Additional Info](#additional
 2. Search for *terminal* using Spotlight and open it up.
 
 3. Run the following commands:  
-**`git clone https://github.com/rosatamsen/laff.git ~/laff`  
-`cd ~/laff && chmod +x config/mac.sh`  
+**`git clone https://github.com/rosatamsen/laff.git ~/laff_env`  
+`cd ~/laff_env && chmod +x config/mac.sh`  
 `config/mac.sh && source ~/.profile`**
 
 ##Linux Setup
@@ -58,12 +58,12 @@ Where **[ISA]** is either **i686** or **x86_64** .
 5. Install [Git](http://git-scm.com/download/linux). You might need to `sudo` those commands.
 
 6. Run the following commands:  
-**`git clone https://github.com/rosatamsen/laff.git ~/laff`  
-`cd ~/laff && chmod +x config/linux.sh`  
+**`git clone https://github.com/rosatamsen/laff.git ~/laff_env`  
+`cd ~/laff_env && chmod +x config/linux.sh`  
 `config/linux.sh && source ~/.profile`**
 
 ##Additional Info
-The `laffvm` command automatically boots up the virtual machine, logs you into it, runs IPython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the laff directory:
+The `laffvm` command automatically boots up the virtual machine, logs you into it, runs IPython notebook, and shuts down the virtual machine once you are done. You can also run those commands manually from the laff_env directory:
 
 **`vagrant up`** Boots up our preconfigured virtual machine.
 
