@@ -16,7 +16,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 
 2. Press `Windows key`, search for *git bash*, and open it up.
 
-3. Run the following commands (hint: use the `Insert` key to paste the command in git bash):  
+3. Run the following commands in git bash (hint: copy each command and then use the `Insert` key to paste it):  
 **`git clone https://github.com/rosatamsen/laff_lde.git ~/laff_lde`  
 `cd ~/laff_lde && chmod +x config/win.sh`  
 `config/win.sh && source ~/.profile`**
@@ -25,7 +25,7 @@ If you are curious about the environment go to the [Additional Info](#additional
 
 1. Download and install [VirtualBox](http://download.virtualbox.org/virtualbox/4.2.16/VirtualBox-4.2.16-86992-OSX.dmg), [Vagrant](http://files.vagrantup.com/packages/7ec0ee1d00a916f80b109a298bab08e391945243/Vagrant-1.2.7.dmg), and [Git](https://git-osx-installer.googlecode.com/files/git-1.8.3.2-intel-universal-snow-leopard.dmg).
 
-2. Search for *terminal* using Spotlight and open it up.
+2. Search for *terminal* using Spotlight (hint: `cmd` + `space bar` is the default keyboard shortcut) and open it up.
 
 3. Run the following commands:  
 **`git clone https://github.com/rosatamsen/laff_lde.git ~/laff_lde`  
