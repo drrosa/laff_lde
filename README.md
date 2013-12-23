@@ -1,3 +1,6 @@
+**UPDATE:** You can now learn from the latest version of this course for free on the edX Platform.  
+https://www.edx.org/course/utaustinx/utaustinx-ut-5-01x-linear-algebra-1162
+
 LAFF - LDE
 ====
 **Linear Algebra: Foundations to Frontier - Learning and Development Environment**
